@@ -22,3 +22,13 @@
     max-width: 45%;
   }
 }
+body::-webkit-scrollbar {
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #d90119;
+}
+::selection {
+  background-color: #d90119;
+  color: #fff;
+}
