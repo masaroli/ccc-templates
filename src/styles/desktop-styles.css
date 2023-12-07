@@ -74,10 +74,11 @@ body::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.9);
   clip-path: polygon(0 100%, 0 0, 38% 0, 93% 100%);
   z-index: 0;
-  height: 194%;
+  height: 183%;
 }
 
-.hero--background {
+.hero--background,
+.heroP--background {
   position: absolute;
   inset: 0;
   background-attachment: fixed;
@@ -85,7 +86,14 @@ body::-webkit-scrollbar-thumb {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 193%;
+}
+
+.hero--background {
+  height: 183%;
+}
+
+.heroP--background {
+  height: 166%;
 }
 
 .hero--course-boxes {
@@ -270,14 +278,14 @@ button {
   background-color: #f1f1f1;
 }
 
-.hero--check-title {
-  font-size: 30px;
-  font-weight: 600;
-}
-
 .hero--check-sub {
   display: flex;
   gap: 70px;
+}
+
+.hero--check-sub-p {
+  line-height: 1.5;
+  width: 740px;
 }
 
 .hero--check-list {
@@ -285,6 +293,18 @@ button {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+}
+
+.list-p {
+  padding-top: 75px;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.list-p-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .hero--check-list-item {
