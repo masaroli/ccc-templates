@@ -18,7 +18,9 @@ h4 {
 
 .hero--links-wraper {
   display: flex;
+  flex-direction: row;
   margin-bottom: 40px;
+  list-style: none;
 }
 
 .hero--links-wraper .link {
@@ -60,7 +62,7 @@ h4 {
   background: rgba(255, 255, 255, 0.9);
   clip-path: polygon(0 100%, 0 0, 38% 0, 93% 100%);
   z-index: 0;
-  height: 183%;
+  height: 194%;
 }
 
 .hero--background {
@@ -71,7 +73,7 @@ h4 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 183%;
+  height: 193%;
 }
 
 .hero--course-boxes {

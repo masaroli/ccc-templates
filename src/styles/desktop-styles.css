@@ -16,11 +16,6 @@
   h4 {
     font-size: 24px;
   }
-
-  .hero--copy-wraper,
-  .hero--paragraph {
-    max-width: 45%;
-  }
 }
 body::-webkit-scrollbar {
   width: 7px;
