@@ -247,6 +247,7 @@ button {
   background-color: transparent;
   border: 1px solid #f1f1f1;
   color: #f1f1f1;
+  cursor: pointer;
 }
 
 .hero--check-distance {
@@ -297,6 +298,7 @@ button {
 
 .hero--big-data {
   margin-top: 60px;
+  margin-bottom: 118px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -383,4 +385,226 @@ ul {
   z-index: -1;
   position: absolute;
   padding-top: 800px;
+}
+
+.hero--goals {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  background-color: #f1f1f1;
+  padding: 100px;
+  line-height: 1.5;
+}
+
+.hero--goals-first,
+.hero--goals-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px;
+}
+
+.hero--goals-first-h3 {
+  padding-bottom: 30px;
+}
+
+.hero--goals-third {
+  width: 800px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.hero--goals-third-ul {
+  list-style: none;
+}
+
+.hero--program {
+  padding: 75px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero--program-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.program-courses-numers {
+  list-style: decimal;
+}
+
+.hero--program-info {
+  width: 750px;
+  height: 320px;
+  background: linear-gradient(40deg, #00286d 62%, #033892 62%);
+}
+
+.hero--program-info-tb {
+  width: 750px;
+  height: 10px;
+  background-color: #033892;
+}
+
+.hero--program-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 30px;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.hero--program-info-text {
+  color: #f1f1f1;
+}
+
+.hero--program-info-button {
+  height: 50px;
+  background-color: #f1f1f1;
+  color: #444444;
+}
+
+.hero--exams {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 100px;
+  gap: 50px;
+  background-color: #f1f1f1;
+}
+
+.hero--exams-calls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.hero--exams-calls-p {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  width: 800px;
+  height: 55px;
+  background-color: #e4e3e3;
+}
+
+.hero--advantages {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  gap: 160px;
+  background-color: #13191d;
+  color: #f1f1f1;
+}
+
+.hero--advantages-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.hero--advantages-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero--advantages-row {
+  display: flex;
+  gap: 20px;
+}
+
+.hero--advantages-box {
+  display: flex;
+  gap: 10px;
+  height: 150px;
+  width: 350px;
+  line-height: 1.2;
+}
+
+.hero--advantages-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.advantages-text-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.elementor-widget-container {
+  padding-top: 40px;
+}
+
+.hero--jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 75px 100px;
+}
+
+.hero--jobs-title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.hero--jobs-text {
+  line-height: 1.5;
+  font-size: 16px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--jobs-text-first {
+  padding-bottom: 10px;
+}
+
+.elementor-widget-wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.hero--hours {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 75px 100px;
+}
+
+.hero--opinions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 75px 100px;
+}
+
+.hero--opinions-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero--other-courses {
+  padding: 75px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #f1f1f1;
+  background-color: #000000;
+}
+
+.elementor-shape-fill {
+  fill: #ffffff;
 }
