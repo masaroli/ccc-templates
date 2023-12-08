@@ -71,7 +71,8 @@ body::-webkit-scrollbar-thumb {
   margin-left: 5px;
 }
 
-#hero:after {
+#hero:after,
+#heroP:after {
   content: '';
   position: absolute;
   inset: 0;

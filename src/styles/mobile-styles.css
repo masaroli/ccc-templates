@@ -37,7 +37,8 @@ h4 {
     width: auto !important;
   }
 
-  .hero--check-list {
+  .hero--check-list,
+  .list-p {
     width: 85%;
   }
 
@@ -137,11 +138,13 @@ h4 {
   }
 
   .hero--check-list,
-  .hero--check-sub {
+  .hero--check-sub,
+  .hero--check-sub-p {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 30px !important;
+    width: 100% !important;
   }
 
   .hero--check-c-logo {
