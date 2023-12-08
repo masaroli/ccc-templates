@@ -67,25 +67,29 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 
+.hero--course-links {
+  margin-left: 5px;
+}
+
 #hero:after {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background: rgba(255, 255, 255, 0.9);
   clip-path: polygon(0 100%, 0 0, 38% 0, 93% 100%);
   z-index: 0;
-  height: 194%;
+  height: 163%;
 }
 
 .hero--background {
   position: absolute;
   inset: 0;
   background-attachment: fixed;
-  background-image: url("../assets/titulo-oficial-tecnico-superior-administracion-documentacion-sanitaria.jpg");
+  background-image: url('../assets/titulo-oficial-tecnico-superior-administracion-documentacion-sanitaria.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 193%;
+  height: 163%;
 }
 
 .hero--course-boxes {
@@ -320,7 +324,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #13191d;
+  background-color: #1e272e;
   gap: 40px;
   padding: 30px 60px;
   margin-left: 75px;
@@ -513,7 +517,7 @@ ul {
   padding-top: 75px;
   padding-bottom: 20px;
   gap: 160px;
-  background-color: #13191d;
+  background-color: #1e272e;
   color: #f1f1f1;
 }
 
