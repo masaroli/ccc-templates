@@ -240,10 +240,12 @@ h4 {
     width: 100% !important;
   }
 
-  .hero--opinions {
+  .hero--opinions,
+  .hero--opinions-title {
     padding: 30px !important;
     width: 100% !important;
   }
+
   .hero--other-courses {
     padding: 30px !important;
     width: 100% !important;

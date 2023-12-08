@@ -81,7 +81,8 @@ body::-webkit-scrollbar-thumb {
   height: 163%;
 }
 
-.hero--background {
+.hero--background,
+.heroP--background {
   position: absolute;
   inset: 0;
   background-attachment: fixed;
@@ -274,14 +275,14 @@ button {
   background-color: #f1f1f1;
 }
 
-.hero--check-title {
-  font-size: 30px;
-  font-weight: 600;
-}
-
 .hero--check-sub {
   display: flex;
   gap: 70px;
+}
+
+.hero--check-sub-p {
+  line-height: 1.5;
+  width: 740px;
 }
 
 .hero--check-list {
@@ -289,6 +290,18 @@ button {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+}
+
+.list-p {
+  padding-top: 75px;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.list-p-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .hero--check-list-item {
